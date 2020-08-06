@@ -1,0 +1,9 @@
+# Configuration
+os: linux
+services: docker
+
+before_install:
+  - sudo apt-get -y jq
+
+script:
+  - make all
